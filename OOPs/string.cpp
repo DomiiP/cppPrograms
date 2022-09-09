@@ -14,10 +14,7 @@ String::String()
     this->s1 = "";
 }
 
-String::String(string a)
-{
-    this->s1 = a;
-}
+String::String(string a) : s1(a){}
 
 String String:: operator+(String ob)
 {
